@@ -44,6 +44,37 @@ h1{
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 100px;
+}
+.activity-1{
+    display: flex;
+    
+}
+.activity-1 img {
+    height: 200px;
+    width: 500px;
+    margin-left: 10px;
+}
+#one{
+    margin: 20px;
+}
+#two{
+    margin: 20px;
+}
+#three{
+    margin: 20px;
+}
+#four{
+    margin: 20px;
+}
+#five{
+    margin: 20px;
+}
+#six{
+    margin: 20px;
+}
+img{
+    border-radius: 10px;
 }
 .one{
     text-align: center;
@@ -58,12 +89,14 @@ h1{
     background-color: #FFEEEE;
     color: #707070;
     padding: 10px;
+    border-radius: 5px;
   }
   .taka2{
     background-color: #FFEEEE;
     padding: 10px;
     color: #FF5959;
     border: 2px solid #FF5959 ;
+    border-radius: 5px;
   }
   .flex-container > div {
     background-color: #f1f1f1;
@@ -79,23 +112,26 @@ h1{
   }
  
   .food{
-    background-color: #4F9DA6;
+    background-color: #98ccd3b4;
     padding: 10px;
     font-size: 16px;
     margin: 5px;
+    text-align: left;
   }
   .shelter{
-    background-color: #FF5959;
+    background-color: #ff595986;
     padding: 10px;
     font-size: 16px;
     text-align: center;
     margin: 5px;
+    text-align: left;
   }
   .Education{
-    background-color: #afacac;
+    background-color: #afacaca2;
     padding: 10px;
     font-size: 16px;
     margin: 5px;
+    text-align: left;
   }
   .plan{
     display: flex;
@@ -122,4 +158,49 @@ h1{
 }
 p{
     text-align: justify;
+}
+.btn{
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: -4px;
+}
+.initial{
+    background-color: #FFF4D6;
+    display: flex;
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 230px;
+    padding-right: 250px;
+}
+.pn{
+    align-items: left;
+}
+.ft{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 550px;
+    padding-right: 500px;
+    margin-top: 100px;
+}
+.contact{
+    display: flex;
+    text-indent: 70px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 120px;
+}
+.message{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
